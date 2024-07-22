@@ -1,0 +1,53 @@
+.container{
+    background-color: rgb(142, 190, 142);
+    padding: 20px 13px;
+    display: flex;
+    margin: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Border ko 1st value le chai border kati ko thick banaune bhanera dekhauxa and 
+2nd value le chai kati teslai dotted banaune ki solid banaune bhanxa*/
+
+/*Margin ko 1st value chai top ra bottomko space kati dine bhanera ho and
+2nd value le chai right ra left ma kati spacing dine bhanera ho */
+
+/*Padding is given between the border and the box of the content*/
+
+.logo{
+    margin: 10px 10px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.parent{
+    display: flex;
+    /* justify-content: space-between;  */
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.parent li{
+    margin-right: 160px;
+}
+
+.parent li a{
+    /* Text decoration: none le chai hamro word muni ko underline lai remove garne kam garxa */
+    text-decoration: none;
+}
+
+.parent li a:hover{
+    color: red;
+}
+
+.parent li.active a{
+    color:yellow
+}
+
+
+
